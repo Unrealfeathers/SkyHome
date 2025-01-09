@@ -9,6 +9,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
+  base: "/SkyHome/",
   srcDir: "docs",
   themeConfig: {
     sidebar: getSidebar(),
