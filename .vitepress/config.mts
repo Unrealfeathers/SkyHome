@@ -7,9 +7,8 @@ export default defineConfig({
   titleTemplate: 'Welcome',
   description: "A Nevagation Site.",
   head: [
-    ['link', { rel: 'icon', href: '/SkyHome/favicon.png' }]
+    ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
-  base: "/SkyHome/",
   srcDir: "docs",
   themeConfig: {
     sidebar: getSidebar(),
