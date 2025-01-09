@@ -13,4 +13,7 @@ export default defineConfig({
   themeConfig: {
     sidebar: getSidebar(),
   },
+  sitemap: {
+    hostname: 'https://skyhome.top'
+  }
 })
